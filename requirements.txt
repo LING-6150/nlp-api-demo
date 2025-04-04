@@ -1,0 +1,9 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]
+redis
+httpx
+pytest
+pytest-cov
+
