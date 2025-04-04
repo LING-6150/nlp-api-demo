@@ -2,3 +2,192 @@
 2025-04-04 00:37:49,252 [INFO] 🧠 模型推理结果: Biotech
 2025-04-04 00:37:50,376 [INFO] 📥 收到请求文本: CRISPR is revolutionary.
 2025-04-04 00:37:50,377 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 12:46:26,341 [INFO] 📥 收到批量请求文本: CRISPR is revolutionizing gene editing.
+2025-04-04 12:46:26,348 [INFO] 🧠 模型推理结果: Biotech
+2025-04-04 12:46:26,348 [INFO] 📥 收到批量请求文本: AI is transforming the world.
+2025-04-04 12:46:26,348 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:46:26,349 [INFO] 📥 收到批量请求文本: The economy is recovering post-pandemic.
+2025-04-04 12:46:26,349 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:46:33,943 [INFO] 📥 收到批量请求文本: CRISPR is revolutionizing gene editing.
+2025-04-04 12:46:33,943 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 12:46:33,943 [INFO] 📥 收到批量请求文本: AI is transforming the world.
+2025-04-04 12:46:33,944 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 12:46:33,944 [INFO] 📥 收到批量请求文本: The economy is recovering post-pandemic.
+2025-04-04 12:46:33,944 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 12:52:12,117 [INFO] 📥 收到批量请求文本: This study presents a transformer-based model for detecting hate speech in multilingual social media posts, achieving state-of-the-art performance on benchmark datasets.
+2025-04-04 12:52:12,117 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:52:12,118 [INFO] 📥 收到批量请求文本: We propose a novel convolutional neural network architecture for brain tumor segmentation in MRI scans, combining spatial attention and residual learning mechanisms.
+2025-04-04 12:52:12,118 [INFO] 🧠 模型推理结果: AI
+2025-04-04 12:52:12,118 [INFO] 📥 收到批量请求文本: Our research investigates the socioeconomic impact of remote work adoption during the COVID-19 pandemic, based on survey data from 15 countries.
+2025-04-04 12:52:12,118 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:52:12,118 [INFO] 📥 收到批量请求文本: This paper introduces an adaptive reinforcement learning approach for autonomous driving in highly dynamic urban environments using LIDAR and camera fusion.
+2025-04-04 12:52:12,118 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:52:12,119 [INFO] 📥 收到批量请求文本: The experiment analyzes the biodegradability of microplastics in freshwater ecosystems and their long-term effects on microbial biodiversity.
+2025-04-04 12:52:12,119 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:52:12,119 [INFO] 📥 收到批量请求文本: This meta-analysis evaluates the efficacy and safety of CRISPR-Cas9 gene-editing technology for treating inherited blood disorders such as sickle cell anemia.
+2025-04-04 12:52:12,119 [INFO] 🧠 模型推理结果: Biotech
+2025-04-04 12:52:12,119 [INFO] 📥 收到批量请求文本: We explore the relationship between urban green spaces and mental health outcomes using machine learning models trained on satellite imagery and hospital data.
+2025-04-04 12:52:12,119 [INFO] 🧠 模型推理结果: AI
+2025-04-04 12:52:12,120 [INFO] 📥 收到批量请求文本: This paper presents a blockchain-based framework for securing patient health records while enabling real-time access by authorized healthcare professionals.
+2025-04-04 12:52:12,120 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:52:12,120 [INFO] 📥 收到批量请求文本: Using climate models and historical emission data, we forecast sea level rise scenarios in coastal regions through 2100 under various mitigation strategies.
+2025-04-04 12:52:12,120 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 12:52:12,120 [INFO] 📥 收到批量请求文本: We examine the ethical implications of generative AI in academic publishing, with a focus on authorship attribution, plagiarism, and knowledge integrity.
+2025-04-04 12:52:12,120 [INFO] 🧠 模型推理结果: Biotech
+2025-04-04 13:09:42,815 [INFO] 📥 收到批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:09:42,822 [INFO] 🧠 模型推理结果: AI
+2025-04-04 13:09:42,823 [INFO] 📥 收到批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 13:09:42,823 [INFO] 🧠 模型推理结果: Environment
+2025-04-04 13:09:42,824 [INFO] 📥 收到批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 13:09:42,824 [INFO] 🧠 模型推理结果: Biotech
+2025-04-04 13:09:42,825 [INFO] 📥 收到批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 13:09:42,825 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 13:09:42,825 [INFO] 📥 收到批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 13:09:42,825 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 13:09:42,825 [INFO] 📥 收到批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 13:09:42,826 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 13:09:42,826 [INFO] 📥 收到批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 13:09:42,826 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 13:09:42,826 [INFO] 📥 收到批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 13:09:42,827 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 13:09:42,827 [INFO] 📥 收到批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 13:09:42,828 [INFO] 🧠 模型推理结果: General Research
+2025-04-04 13:09:42,828 [INFO] 📥 收到批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 13:09:42,828 [INFO] 🧠 模型推理结果: AI
+2025-04-04 13:10:25,673 [INFO] 📥 收到批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:10:25,674 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,674 [INFO] 📥 收到批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 13:10:25,674 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,675 [INFO] 📥 收到批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 13:10:25,675 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,675 [INFO] 📥 收到批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 13:10:25,675 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,675 [INFO] 📥 收到批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 13:10:25,676 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,676 [INFO] 📥 收到批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 13:10:25,676 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,676 [INFO] 📥 收到批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 13:10:25,676 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,676 [INFO] 📥 收到批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 13:10:25,676 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,677 [INFO] 📥 收到批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 13:10:25,677 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:10:25,677 [INFO] 📥 收到批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 13:10:25,677 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:22:51,239 [INFO] 📥 收到批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:23:28,258 [INFO] 📥 收到批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:26:30,048 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:26:31,630 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:39:55,763 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:47:29,245 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:47:29,245 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,245 [INFO] 🧠 模型推理结果: {'topic': 'Healthcare', 'confidence': 0.99}
+2025-04-04 13:47:29,246 [INFO] 📥 批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 13:47:29,246 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,246 [INFO] 🧠 模型推理结果: {'topic': 'Blockchain', 'confidence': 0.92}
+2025-04-04 13:47:29,247 [INFO] 📥 批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 13:47:29,247 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,247 [INFO] 🧠 模型推理结果: {'topic': 'Healthcare', 'confidence': 0.77}
+2025-04-04 13:47:29,247 [INFO] 📥 批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 13:47:29,248 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,248 [INFO] 🧠 模型推理结果: {'topic': 'Energy', 'confidence': 0.98}
+2025-04-04 13:47:29,248 [INFO] 📥 批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 13:47:29,248 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,248 [INFO] 🧠 模型推理结果: {'topic': 'Education', 'confidence': 0.82}
+2025-04-04 13:47:29,248 [INFO] 📥 批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 13:47:29,248 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,249 [INFO] 🧠 模型推理结果: {'topic': 'Energy', 'confidence': 0.89}
+2025-04-04 13:47:29,249 [INFO] 📥 批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 13:47:29,249 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,249 [INFO] 🧠 模型推理结果: {'topic': 'Finance', 'confidence': 0.91}
+2025-04-04 13:47:29,249 [INFO] 📥 批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 13:47:29,249 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,250 [INFO] 🧠 模型推理结果: {'topic': 'Energy', 'confidence': 0.73}
+2025-04-04 13:47:29,250 [INFO] 📥 批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 13:47:29,250 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,250 [INFO] 🧠 模型推理结果: {'topic': 'Robotics', 'confidence': 0.94}
+2025-04-04 13:47:29,251 [INFO] 📥 批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 13:47:29,251 [WARNING] 解析缓存失败: Expecting value: line 1 column 1 (char 0)
+2025-04-04 13:47:29,251 [INFO] 🧠 模型推理结果: {'topic': 'Finance', 'confidence': 0.92}
+2025-04-04 13:54:09,381 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:54:09,381 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,382 [INFO] 📥 批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 13:54:09,382 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,382 [INFO] 📥 批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 13:54:09,382 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,383 [INFO] 📥 批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 13:54:09,383 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,383 [INFO] 📥 批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 13:54:09,383 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,383 [INFO] 📥 批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 13:54:09,383 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,384 [INFO] 📥 批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 13:54:09,384 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,384 [INFO] 📥 批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 13:54:09,384 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,384 [INFO] 📥 批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 13:54:09,385 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:09,385 [INFO] 📥 批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 13:54:09,385 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,365 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 13:54:24,366 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,366 [INFO] 📥 批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 13:54:24,367 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,367 [INFO] 📥 批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 13:54:24,367 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,368 [INFO] 📥 批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 13:54:24,368 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,368 [INFO] 📥 批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 13:54:24,368 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,368 [INFO] 📥 批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 13:54:24,369 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,369 [INFO] 📥 批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 13:54:24,369 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,369 [INFO] 📥 批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 13:54:24,369 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,370 [INFO] 📥 批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 13:54:24,370 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 13:54:24,370 [INFO] 📥 批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 13:54:24,371 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:31:45,130 [INFO] 📥 收到请求文本: 这是测试文本
+2025-04-04 14:31:45,136 [INFO] 🧠 模型推理结果: {'topic': 'Environment', 'confidence': 0.86}
+2025-04-04 14:34:40,775 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 14:34:40,780 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,780 [INFO] 📥 批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 14:34:40,781 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,781 [INFO] 📥 批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 14:34:40,781 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,781 [INFO] 📥 批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 14:34:40,781 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,781 [INFO] 📥 批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 14:34:40,781 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,782 [INFO] 📥 批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 14:34:40,782 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,782 [INFO] 📥 批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 14:34:40,782 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,782 [INFO] 📥 批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 14:34:40,782 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,782 [INFO] 📥 批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 14:34:40,782 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:34:40,782 [INFO] 📥 批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 14:34:40,782 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,277 [INFO] 📥 批量请求文本: We propose a hybrid neural network model that integrates LSTM and Transformer blocks to improve long-range language modeling performance on academic corpora.
+2025-04-04 14:35:45,277 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,278 [INFO] 📥 批量请求文本: This study explores the effects of climate change on marine biodiversity, with a focus on coral bleaching events in the Pacific Ocean.
+2025-04-04 14:35:45,278 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,279 [INFO] 📥 批量请求文本: Our experiment applies CRISPR-Cas9 to engineer drought-resistant rice strains, analyzing yield improvement under controlled environmental conditions.
+2025-04-04 14:35:45,279 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,279 [INFO] 📥 批量请求文本: This paper presents a blockchain-based framework to enhance data security in supply chain logistics across international borders.
+2025-04-04 14:35:45,280 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,281 [INFO] 📥 批量请求文本: A novel unsupervised clustering technique is introduced to detect financial fraud using transactional metadata and temporal behavior features.
+2025-04-04 14:35:45,281 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,282 [INFO] 📥 批量请求文本: We investigate the relationship between adolescent mental health and social media usage using a longitudinal survey across three countries.
+2025-04-04 14:35:45,282 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,282 [INFO] 📥 批量请求文本: This research introduces an AI-powered diagnostic assistant for early detection of Alzheimer's disease using speech analysis and memory tests.
+2025-04-04 14:35:45,282 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,283 [INFO] 📥 批量请求文本: The paper studies energy-efficient routing protocols in wireless sensor networks deployed in smart agricultural systems.
+2025-04-04 14:35:45,283 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,284 [INFO] 📥 批量请求文本: We analyze the ethical implications of deepfake technology in political campaigns and propose a regulatory framework for digital authenticity.
+2025-04-04 14:35:45,284 [INFO] ✅ 命中缓存（Redis）
+2025-04-04 14:35:45,284 [INFO] 📥 批量请求文本: A comparative analysis of machine learning models for predicting stock price volatility based on macroeconomic indicators is conducted.
+2025-04-04 14:35:45,285 [INFO] ✅ 命中缓存（Redis）
