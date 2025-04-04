@@ -9,6 +9,11 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    services:
+      redis:
+        image: redis:latest
+        ports:
+          - 6379:6379
 
     steps:
       - name: 📥 Checkout code
@@ -27,4 +32,4 @@ jobs:
 
       - name: ✅ Run unit tests with coverage
         run: |
-          pytest --cov=app --cov-report=term-missing test_api.py
+          pytest --cov=app --cov-report=term-missing tests
