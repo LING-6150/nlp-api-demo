@@ -8,4 +8,5 @@ services:
     envVars:
       - key: REDIS_URL
         value: redis://red-cvo4igqdbo4c73e1jilg:6379
-
+      - key: USE_REDIS
+        value: "1"
