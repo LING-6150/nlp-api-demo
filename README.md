@@ -21,6 +21,10 @@ A simple API built with FastAPI, demonstrating NLP (Natural Language Processing)
 | Python | Programming language |
 
 ---
+📝 Logging:
+- Real-time logs using Python's logging module.
+- Saved in `logs/app.log` for persistent tracking.
+
 
 ## 🔧 Installation:
 
