@@ -6,7 +6,6 @@ services:
     branch: main
     plan: free
     envVars:
-      - key: REDIS_HOST
-        value: redis
-      - key: REDIS_PORT
-        value: 6379
+      - key: REDIS_URL
+        value: redis://red-cvo4igqdbo4c73e1jilg:6379
+
