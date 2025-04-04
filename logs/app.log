@@ -1,0 +1,4 @@
+2025-04-04 00:37:49,246 [INFO] 📥 收到请求文本: CRISPR is revolutionary.
+2025-04-04 00:37:49,252 [INFO] 🧠 模型推理结果: Biotech
+2025-04-04 00:37:50,376 [INFO] 📥 收到请求文本: CRISPR is revolutionary.
+2025-04-04 00:37:50,377 [INFO] ✅ 命中缓存（Redis）
