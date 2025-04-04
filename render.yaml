@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: nlp-api-demo
+    env: docker
+    repo: https://github.com/LING-6150/nlp-api-demo
+    branch: main
+    plan: free
+    envVars:
+      - key: REDIS_HOST
+        value: redis
+      - key: REDIS_PORT
+        value: 6379

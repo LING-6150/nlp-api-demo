@@ -1,15 +1,15 @@
 version: "3.8"
-services:
-  redis:
-    image: redis:6.2
-    container_name: redis
-    ports:
-      - "6379:6379"
 
-  api:
+services:
+  web:
     build: .
-    container_name: nlp-api
     ports:
       - "8000:8000"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
     depends_on:
       - redis
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
