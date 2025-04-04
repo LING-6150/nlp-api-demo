@@ -32,4 +32,5 @@ jobs:
 
       - name: ✅ Run unit tests with coverage
         run: |
-          pytest --cov=app --cov-report=term-missing tests
+          pytest --cov=app --cov-report=term-missing test_api.py
+
