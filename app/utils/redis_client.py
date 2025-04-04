@@ -1,14 +1,16 @@
-from app.config import REDIS_HOST, REDIS_PORT, USE_REDIS
 import redis
 import json
 import logging
+import os
 
 logger = logging.getLogger("redis_client")
 
-if USE_REDIS:
-    r = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, decode_responses=True)
-else:
-    r = None
+# Render 上用的是完整 Redis URL
+REDIS_URL = os.getenv("REDIS_URL")
+USE_REDIS = REDIS_URL is not None  # 只要设置了 URL，就启用 Redis
+
+# 初始化 Redis 客户端
+r = redis.from_url(REDIS_URL, decode_responses=True) if USE_REDIS else None
 
 def get_from_cache(key: str):
     if not r:
