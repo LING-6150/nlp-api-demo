@@ -1,0 +1,17 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: fastapi-monitor
+  labels:
+    release: prometheus  # ⚠️ 这里的 release 名要与你部署的 Prometheus Helm Release 名匹配
+spec:
+  selector:
+    matchLabels:
+      app: nlp-api
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 15s
+  namespaceSelector:
+    matchNames:
+      - default

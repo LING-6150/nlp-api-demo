@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nlp-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nlp-api
+  template:
+    metadata:
+      labels:
+        app: nlp-api
+    spec:
+      containers:
+        - name: nlp-api
+          image: lingduan/nlp-api-demo:latest
+          imagePullPolicy: Never   # ← 加上这句！
+          ports:
+            - containerPort: 8000
+          env:
+            - name: REDIS_URL
+              value: redis://redis:6379   # ← 改为 K8s 的内部服务名

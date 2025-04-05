@@ -11,6 +11,8 @@ from app.services.logger import write_log, init_csv
 from app.utils.redis_client import get_from_cache, save_to_cache
 from app.config import REDIS_HOST, REDIS_PORT, CACHE_EXPIRE_SECONDS
 
+from prometheus_fastapi_instrumentator import Instrumentator
+
 # 确保日志目录存在
 if not os.path.exists("logs"):
     os.makedirs("logs")
@@ -27,6 +29,10 @@ logging.basicConfig(
 logger = logging.getLogger("nlp-api")
 
 app = FastAPI()
+
+# 添加 Prometheus middleware
+Instrumentator().instrument(app).expose(app, endpoint="/metrics")
+
 
 # 初始化 CSV 文件（写入表头）
 init_csv()
