@@ -1,39 +1,33 @@
+# 🧠 NLP-API-DEMO
 
-
-[![CI](https://github.com/LING-6150/nlp-api-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/LING-6150/nlp-api-demo/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
-[![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)](https://www.docker.com/)
-[![Redis](https://img.shields.io/badge/cache-Redis-informational?logo=redis)](https://redis.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
-# 🧠 NLP Topic Classification API
-
-A lightweight **FastAPI-based microservice** for predicting the topic of a given abstract. It supports **real-time inference**, **Redis caching**, **logging**, **Dockerization**, and **automated deployment** via Render.
+A full-stack **NLP microservice** built with FastAPI, Redis, Docker, and Kubernetes.  
+This project demonstrates real-world API design, Redis caching, DevOps practices, and automated testing.
 
 ---
 
-## 🔍 Features
+## ✨ Features
 
-- `GET /predict?text=...` → Predicts topic and confidence from a single abstract
-- `POST /batch_predict` → Batch predictions from multiple abstracts
-- Redis caching to reduce repeated inference latency
-- Real-time logging into `logs/prediction_log.csv`
-- Dockerized and deployed on [Render](https://render.com)
-- Integrated CI with GitHub Actions for testing and linting
+- **GET `/predict?text=...`** → Predicts topic and confidence from a single abstract  
+- **POST `/batch_predict`** → Batch predictions for multiple abstracts  
+- **Redis caching** → Reduce repeated inference latency  
+- **Real-time CSV logging** → Logs predictions to `logs/prediction_log.csv`  
+- **Dockerized** → For both local and cloud deployment  
+- **Kubernetes deployment support** → FastAPI + Redis services on K8s  
+- **CI/CD integration** → GitHub Actions for testing, linting, and coverage  
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Category    | Tools/Tech                            |
-|-------------|----------------------------------------|
-| Web API     | FastAPI, Uvicorn                      |
-| Caching     | Redis                                 |
-| Deployment  | Docker, Render                        |
-| CI/CD       | GitHub Actions                        |
-| Language    | Python 3.10+                          |
-| Testing     | Pytest + FastAPI TestClient           |
+| Category     | Tools/Tech                              |
+|--------------|------------------------------------------|
+| Web API      | FastAPI, Uvicorn                        |
+| Caching      | Redis                                   |
+| Deployment   | Docker, Kubernetes, Render              |
+| CI/CD        | GitHub Actions                          |
+| Language     | Python 3.10+                            |
+| Testing      | Pytest, FastAPI TestClient              |
+| Monitoring   | Prometheus (via ServiceMonitor on K8s)  |
 
 ---
 
@@ -42,65 +36,91 @@ A lightweight **FastAPI-based microservice** for predicting the topic of a given
 ```
 .
 ├── app/
-│   ├── main.py               # FastAPI entrypoint
-│   ├── config.py             # Redis + app config
+│   ├── main.py                 # FastAPI entrypoint
+│   ├── config.py               # Redis + app config
 │   ├── services/
-│   │   ├── predictor.py      # Topic prediction logic
-│   │   └── logger.py         # CSV logging
+│   │   ├── predictor.py        # Topic prediction logic
+│   │   └── logger.py           # CSV logging
 │   └── utils/
-│       └── redis_client.py   # Redis abstraction
+│       └── redis_client.py     # Redis abstraction
+├── k8s/
+│   ├── fastapi-deployment.yaml     # FastAPI Deployment
+│   ├── fastapi-service.yaml        # FastAPI Service
+│   ├── fastapi-servicemonitor.yaml # Prometheus monitoring
+│   ├── redis-deployment.yaml       # Redis Deployment
+│   └── redis-service.yaml          # Redis Service
+├── logs/
+│   └── prediction_log.csv
+├── docker-compose.yml
 ├── Dockerfile
-├── render.yaml               # Render deployment spec
+├── render.yaml
 ├── requirements.txt
-├── tests/
-│   └── test_api.py           # Unit tests
+├── test_api.py
 └── .github/
     └── workflows/
-        └── ci.yml            # GitHub Actions CI pipeline
+        └── ci.yml                 # GitHub Actions CI pipeline
 ```
 
 ---
 
 ## 🐳 Local Development
 
-1. **Install Redis locally** or use Docker:
+Start Redis with Docker:
 
 ```bash
 docker run -d -p 6379:6379 redis
 ```
 
-2. **Run app locally**
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the app locally:
+
+```bash
 uvicorn app.main:app --reload
 ```
 
-Visit http://127.0.0.1:8000/docs to test endpoints via Swagger UI.
+Visit [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the endpoints via Swagger UI.
 
 ---
 
-## 🚀 Deployment on Render
+## ☸️ Kubernetes Deployment
 
-1. Push code to GitHub with `render.yaml` included.
-2. Create a **Web Service** and attach your GitHub repo.
-3. (Optional) Add a **Redis Key-Value Instance** and configure the `REDIS_URL` environment variable.
+This project supports K8s deployment for FastAPI and Redis microservices.
+
+```bash
+# Apply FastAPI Deployment & Service
+kubectl apply -f k8s/fastapi-deployment.yaml
+kubectl apply -f k8s/fastapi-service.yaml
+
+# Apply Redis Deployment & Service
+kubectl apply -f k8s/redis-deployment.yaml
+kubectl apply -f k8s/redis-service.yaml
+
+# (Optional) Apply Prometheus Monitoring
+kubectl apply -f k8s/fastapi-servicemonitor.yaml
+```
 
 ---
 
-## ✅ CI/CD Pipeline
+## ✅ CI/CD with GitHub Actions
 
-This project uses **GitHub Actions** to automatically:
+This project uses GitHub Actions to automatically:
 
-- Install dependencies
-- Run unit tests with Redis mocking
-- Show test coverage
+- ✅ Install dependencies
+- ✅ Run tests with `pytest`
+- ✅ Mock Redis in unit tests
+- ✅ Measure test coverage
+- ✅ Lint Python code
 
-Check `.github/workflows/ci.yml` for configuration.
+Workflow file: `.github/workflows/ci.yml`
 
 ---
 
-## 📌 Sample Prediction Response
+## 📌 Sample API Response
 
 ```json
 {
@@ -114,20 +134,18 @@ Check `.github/workflows/ci.yml` for configuration.
 
 ## 👨‍💻 Author & Use Case
 
-This project simulates a **real-world backend microservice** and is designed to demonstrate:
+> Built by Ling Duan  
+> Date: 2025-04-05  
+> Deployed demo: [https://nlp-api-demo.onrender.com](https://nlp-api-demo.onrender.com)
 
-- API Design & Testing
-- Docker-based deployment
-- Redis caching in real apps
-- CI/CD skills (useful for cloud engineering/SWE roles)
+This project simulates a production-ready backend service and is ideal for showcasing:
 
-> Perfect for showcasing backend system building in job interviews or portfolio.
+- 🔧 Backend API Development (FastAPI)
+- 📦 Docker + Kubernetes Deployment
+- ⚡ Redis Caching for Repeated Inference
+- 🧪 Automated Testing and CI/CD
+- ☁️ Real-World DevOps and Observability
 
----
-
-## 📬 Contact
-
-Built by [Ling Duan](https://github.com/LING-6150).  
-Deployed project: [https://nlp-api-demo.onrender.com](https://nlp-api-demo.onrender.com)
+Perfect for SWE, backend, or DevOps engineer portfolios.
 
 ---
